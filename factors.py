@@ -13,7 +13,7 @@ def factor(n):
         if num % i == 0:
             mul = num // i
             break
-    print("{:d}={:d}*{:d}".format(num, value, mul))
+    print("{:d}={:d}*{:d}".format(num, mul, i))
 
 
 if len(sys.argv) != 2:
