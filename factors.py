@@ -4,7 +4,7 @@ import sys
 
 
 def factor(n):
-    numb = int(n)
+    num = int(n)
     mul = 0
     if num < 4:
         print("{:d}={:d}*1".format(num, num))
